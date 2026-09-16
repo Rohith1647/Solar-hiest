@@ -278,6 +278,10 @@ body {
     background: #10b981;
 }
 
+.puzzle-card:nth-child(4)::before {
+    background: #f59e0b;
+}
+
 .puzzle-icon {
     width: 48px;
     height: 48px;
@@ -301,6 +305,11 @@ body {
 .physical-icon {
     background: rgba(16, 185, 129, 0.1);
     color: #10b981;
+}
+
+.key-icon {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
 }
 
 .puzzle-card h3 {
