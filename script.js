@@ -4,138 +4,123 @@
 const teamsConfig = {
     1: {
         name: "Team 1",
-        logical: "The Book: A book costs $20 plus half its own price. How much does the book cost? Solve the derived answer in this equation to get Digit 1: (3x^2−4x)/5x − (x/8) = 4.",
-        visual: "Which Way Leads To the Center? Study the maze image carefully — the number of dead ends gives you Digit 2.",
-        visualImage: "1phy.jpeg",
-        physical: "Do 5 jumping jacks in slow motion while counting aloud. The number of people who laugh gives you Digit 3.",
-        vaultKey: "Think of the first prime number greater than 6. That is your Digit 4.",
-        key: "4427"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: C→F, F→B, B NOT→G, B→A, D NOT→E. Path passes through exactly 4 terminals. Find the unique path starting at C. Answer = value of LAST terminal.",
+        visual: "Tank filled by A & B, drained by C. A alone: 20hrs, B alone: 30hrs, C alone empties: 60hrs. All three run together, but every 4hrs C is shut for 1hr (A&B keep running). How many complete hours to fill? (If >9, give last digit.)",
+        physical: "Priya starts facing North: Walks 9km(N). Turn left, 2km. Turn left, 4km. Turn right, 9km. Turn left, 5km. Turn left, 4km. Shortest distance (km, rounded) from start? (If >9, give last digit.)",
+        vaultKey: "Vessel has milk:water = 5:3. Remove 16L mixture, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "2570"
     },
     2: {
         name: "Team 2",
-        logical: "A lily pad doubles in size every day. If it takes 48 days to cover the entire lake, how many days does it take to cover half the lake? Use the last digit of your answer as Digit 1.",
-        visual: "Find the answer hidden in the image and use only the last digit from the result as Digit 2.",
-        visualImage: "2phy.jpeg",
-        physical: "Say a complete movie dialogue to your team. Count the number of syllables in the last word — that gives Digit 3.",
-        vaultKey: "How many sides does a hexagon have? Subtract 2 from it. That is your Digit 4.",
-        key: "7534"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→H, H→D, D NOT→E, D→A, B NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 20hrs, C empties: 25hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). How many complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 3km(N). Right 3km. Left 5km. Left 4km. Left 3km. Left 7km. Right 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 7:5. Remove 24L mixture, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, last digit.)",
+        key: "2979"
     },
     3: {
         name: "Team 3",
-        logical: "A snail is at the bottom of a 20-foot well. Each day it climbs 3 feet, but each night it slips back 2 feet. How many days to reach the top? Use only the tens digit of your answer as Digit 1.",
-        visual: "Find the Odd One Out in the image. Count how many items are in the matching group to get Digit 2.",
-        visualImage: "3phy.jpeg",
-        physical: "Slow Motion Walk Race across the room. The place number of the winner (1st=1, 2nd=2...) gives Digit 3.",
-        vaultKey: "How many letters are in the word VAULT? That is your Digit 4.",
-        key: "1915"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: D→F, F→G, G NOT→A, G→E, H NOT→B. Find unique 4-terminal path starting at D. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 18hrs, C empties: 36hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 2km(N). Right 2km. Right 7km. Left 1km. Left 4km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:2. Remove 20L mixture, replace with pure water → new ratio 1:2. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "8937"
     },
     4: {
         name: "Team 4",
-        logical: "A boy has as many sisters as brothers. Each sister has only half as many sisters as brothers. How many brothers are there? Solve: x^2−3x+(20/x) to verify. The result's first digit is Digit 1.",
-        visual: "Count the number of triangles in the image and use only the first digit of that count as Digit 2.",
-        visualImage: "4phy.jpeg",
-        physical: "Stare at your teammates without blinking for 1 minute. The number of people who last 30+ seconds gives Digit 3.",
-        vaultKey: "What is 3 squared minus 5? That is your Digit 4.",
-        key: "9644"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→H, H→C, C NOT→B, C→D, A NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 15hrs, B alone: 20hrs, C empties: 30hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 7km(N). Right 4km. Left 5km. Right 1km. Left 3km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 5:3. Remove 24L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "1265"
     },
     5: {
         name: "Team 5",
-        logical: "A single bacterium in a jar doubles every minute. The jar is full in 60 minutes. At what minute was the jar 1/4 full? Use derived answer as x in: x/29−(x−58/x)=2. The answer's first digit is Digit 1.",
-        visual: "Which Bottle Fills First? The bottle number (1, 2, 3...) that fills first is Digit 2.",
-        visualImage: "5phy.jpeg",
-        physical: "Hold the Invisible Chair pose + raise one arm. Seconds held by longest-lasting person (mod 9 + 1) gives Digit 3.",
-        vaultKey: "How many fingers are on two hands? Divide by 5. That is your Digit 4.",
-        key: "2382"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→E, E→F, F NOT→H, F→A, D NOT→H. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 9hrs, B alone: 18hrs, C empties: 27hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 2km(N). Left 4km. Left 6km. Right 8km. Left 8km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:1. Remove 8L mixture, replace with pure water → new ratio 3:5. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "2872"
     },
     6: {
         name: "Team 6",
-        logical: "If 1.5 hens lay 1.5 eggs in 1.5 days, how many eggs does 1 hen lay in 1 day? Take the denominator of your fractional answer as Digit 1.",
-        visual: "Which Key Fits In the lock shown? The key number (1, 2, 3...) that matches is Digit 2.",
-        visualImage: "6phy.jpeg",
-        physical: "Dance a hook step together as a team. Count how many teammates get it right on the first try — that is Digit 3.",
-        vaultKey: "What is the result of 2^3 − 2? That is your Digit 4.",
-        key: "3756"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: H→C, C→E, E NOT→D, E→A, G NOT→D. Find unique 4-terminal path starting at H. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 15hrs, C empties: 60hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 9km(N). Left 7km. Right 3km. Left 9km. Left 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:1. Remove 16L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "2897"
     },
     7: {
         name: "Team 7",
-        logical: "If you have a 3-litre jug and a 5-litre jug, how do you measure exactly 4 litres? Count the total number of pouring steps needed — that is Digit 1.",
-        visual: "How many squares (of all sizes) are in a 3x3 grid? Use the units digit as Digit 2.",
-        visualImage: "1phy.jpeg",
-        physical: "Whisper a 10-word sentence down a chain of teammates. Count correctly recalled words ÷ 2 (round up) = Digit 3.",
-        vaultKey: "What digit is at the centre of a standard phone keypad? That is your Digit 4.",
-        key: "6455"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: F→B, B→D, D NOT→E, D→H, C NOT→G. Find unique 4-terminal path starting at F. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 15hrs, C empties: 20hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 1km(N). Left 5km. Right 8km. Left 1km. Left 3km. Right 6km. Left 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 9:7. Remove 16L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "6831"
     },
     8: {
         name: "Team 8",
-        logical: "A clock shows 3:15. What is the angle between the hour and minute hands? Divide that angle by 90 and take the remainder — that is Digit 1.",
-        visual: "Spot the difference: count the number of differences in the image. Use the ones digit as Digit 2.",
-        visualImage: "2phy.jpeg",
-        physical: "Everyone on the team must clap in perfect unison 5 times. Attempts needed to succeed (max 9) = Digit 3.",
-        vaultKey: "How many vowels are in the word ENIGMA? That is your Digit 4.",
-        key: "7837"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: E→F, F→D, D NOT→B, D→C, H NOT→G. Find unique 4-terminal path starting at E. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 6hrs, B alone: 12hrs, C empties: 18hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 1km(N). Left 8km. Right 7km. Left 5km. Right 4km. Right 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 5:3. Remove 24L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "4575"
     },
     9: {
         name: "Team 9",
-        logical: "In a room of 23 people, what is the probability (%) that two share a birthday? Use only the tens digit of that percentage as Digit 1.",
-        visual: "Count the number of circles hidden in the image. Use only the ones digit as Digit 2.",
-        visualImage: "3phy.jpeg",
-        physical: "Stack 5 paper cups into a pyramid without using your dominant hand. Time in seconds ÷ 10 (round down) + 1 = Digit 3.",
-        vaultKey: "What is 4! ÷ 8? That is your Digit 4.",
-        key: "5163"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: D→A, A→E, E NOT→C, E→B, H NOT→C. Find unique 4-terminal path starting at D. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 16hrs, B alone: 24hrs, C empties: 48hrs. All run together, but every 4hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 9km(N). Right 8km. Left 3km. Right 3km. Left 8km. Right 3km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:2. Remove 10L mixture, replace with pure water → new ratio 3:4. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "7241"
     },
     10: {
         name: "Team 10",
-        logical: "You have 9 coins, one is lighter (fake). How many weighings on a balance scale are needed in the worst case to find it? That number is Digit 1.",
-        visual: "How many triangles point upward in the image? Use that count as Digit 2.",
-        visualImage: "4phy.jpeg",
-        physical: "Form a human knot with teammates, then untangle without releasing hands. Time in minutes (ceiling) = Digit 3.",
-        vaultKey: "What is the 4th letter of the alphabet? Convert it to its position number. That is Digit 4.",
-        key: "2414"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→D, D→A, A NOT→G, A→H, E NOT→G. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 14hrs, B alone: 21hrs, C empties: 42hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 4km(N). Left 1km. Right 6km. Right 4km. Left 5km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 7:5. Remove 24L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "6058"
     },
     11: {
         name: "Team 11",
-        logical: "A merchant starts with $100. He gains 10% on Monday, loses 10% on Tuesday. How much does he have? The answer's tens digit is Digit 1.",
-        visual: "What number does the shadow form in the image? Use its ones digit as Digit 2.",
-        visualImage: "5phy.jpeg",
-        physical: "Complete a group paper-toss challenge: each person tosses into a bin from 2 metres. Successful shots = Digit 3 (max 9).",
-        vaultKey: "How many days are in a leap year? Sum the individual digits. That is Digit 4.",
-        key: "9378"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: C→G, G→D, D NOT→F, D→E, A NOT→B. Find unique 4-terminal path starting at C. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 8hrs, B alone: 24hrs, C empties: 16hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 1km(N). Left 2km. Left 9km. Right 4km. Right 5km. Right 8km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 5:1. Remove 24L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "8940"
     },
     12: {
         name: "Team 12",
-        logical: "If MARCH = 43 and APRIL = 57, what does MAY equal using the same code? Use the ones digit of the answer as Digit 1.",
-        visual: "Decode the pattern in the image: what is the missing number? Use its ones digit as Digit 2.",
-        visualImage: "6phy.jpeg",
-        physical: "Build the tallest freestanding tower using 10 index cards — no tape or glue. Height in cm ÷ 5 (round down) + 1 = Digit 3.",
-        vaultKey: "What is the Roman numeral IX in Arabic? Subtract 5 from it. That is Digit 4.",
-        key: "3624"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: F→H, H→C, C NOT→A, C→E, A NOT→B. Find unique 4-terminal path starting at F. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 10hrs, C empties: 20hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 8km(N). Right 3km. Left 8km. Left 3km. Right 7km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 2:3. Remove 10L mixture, replace with pure water → new ratio 1:2. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "8634"
     },
     13: {
         name: "Team 13",
-        logical: "Train A leaves at 60 km/h, Train B at 90 km/h toward each other from 300 km apart. When do they meet? The answer in minutes — use the tens digit as Digit 1.",
-        visual: "Count the total number of line segments in the image. Use the ones digit as Digit 2.",
-        visualImage: "1phy.jpeg",
-        physical: "Mirror your partner's movements for 30 seconds without error. Successful mirror pairs × 1 = Digit 3 (max 9).",
-        vaultKey: "What is the square root of 49? Subtract 4. That is Digit 4.",
-        key: "1583"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: E→H, H→F, F NOT→D, F→B, C NOT→G. Find unique 4-terminal path starting at E. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 9hrs, B alone: 12hrs, C empties: 18hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 1km(N). Right 7km. Right 7km. Left 4km. Right 6km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:2. Remove 10L mixture, replace with pure water → new ratio 2:3. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "7768"
     },
     14: {
         name: "Team 14",
-        logical: "If you fold a paper in half 7 times, how many layers do you get? Take the number of digits in that answer as Digit 1.",
-        visual: "How many arrows point RIGHT in the image? That count is Digit 2.",
-        visualImage: "2phy.jpeg",
-        physical: "Each person must balance a book on their head for 20 seconds. People who succeed = Digit 3 (max 9).",
-        vaultKey: "What is 6 × 6 ÷ 9? That is your Digit 4.",
-        key: "2441"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→B, B→H, H NOT→D, H→A, F NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 8hrs, B alone: 12hrs, C empties: 24hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 5km(N). Right 1km. Right 2km. Left 4km. Left 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:1. Remove 24L mixture, replace with pure water → new ratio 3:4. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "2662"
     },
     15: {
         name: "Team 15",
-        logical: "A frog jumps 1/3 of the remaining distance to a wall each jump. After 3 jumps, what fraction of the original distance remains? Multiply numerator × denominator and use the ones digit as Digit 1.",
-        visual: "Find the hidden word in the image. Count its letters and use the ones digit as Digit 2.",
-        visualImage: "3phy.jpeg",
-        physical: "Everyone freeze in place for 45 seconds — no laughing allowed. People who stay frozen ÷ 2 (round up) = Digit 3.",
-        vaultKey: "How many months have exactly 30 days? That is your Digit 4.",
-        key: "7354"
+        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→C, C→D, D NOT→H, D→A, H NOT→F. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
+        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 20hrs, C empties: 30hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
+        physical: "Priya starts facing North: Walks 2km(N). Left 3km. Left 8km. Right 1km. Right 5km. Right 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
+        vaultKey: "Vessel has milk:water = 3:1. Remove 12L mixture, replace with pure water → new ratio 3:5. Original milk quantity (liters)? (If >9, last digit.)",
+        key: "2028"
     }
 };
 
