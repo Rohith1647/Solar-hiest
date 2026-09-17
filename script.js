@@ -4,123 +4,123 @@
 const teamsConfig = {
     1: {
         name: "Team 1",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: C→F, F→B, B NOT→G, B→A, D NOT→E. Path passes through exactly 4 terminals. Find the unique path starting at C. Answer = value of LAST terminal.",
-        visual: "Tank filled by A & B, drained by C. A alone: 20hrs, B alone: 30hrs, C alone empties: 60hrs. All three run together, but every 4hrs C is shut for 1hr (A&B keep running). How many complete hours to fill? (If >9, give last digit.)",
-        physical: "Priya starts facing North: Walks 9km(N). Turn left, 2km. Turn left, 4km. Turn right, 9km. Turn left, 5km. Turn left, 4km. Shortest distance (km, rounded) from start? (If >9, give last digit.)",
-        vaultKey: "Vessel has milk:water = 5:3. Remove 16L mixture, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "2570"
+        logical: "Solve for x: 4(x − 2) − 3(x − 1) = 2",
+        visual: "A number decreases by 10% to give 90. Find 1% of the original number.",
+        physical: "Starting at her house facing North, Priya walks a sequence of legs: Walks 9 km (N). Turns left, 2 km. Turns left, 4 km. Turns right, 9 km. Turns left, 5 km. Turns left, 4 km. Shortest distance (km, rounded) from start? (If >9, give last digit.)",
+        vaultKey: "A vessel contains milk and water in ratio 5:3. If 16 liters of the mixture is removed and replaced with pure water, the new ratio becomes 5:7. Find the original quantity of milk (liters). (If >9, give last digit.)",
+        key: "7170"
     },
     2: {
         name: "Team 2",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→H, H→D, D NOT→E, D→A, B NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 20hrs, C empties: 25hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). How many complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 3km(N). Right 3km. Left 5km. Left 4km. Left 3km. Left 7km. Right 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 7:5. Remove 24L mixture, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, last digit.)",
-        key: "2979"
+        logical: "Solve for x: (x + 2)/2 + (x + 2)/4 = 6",
+        visual: "A sum of ₹200 grows to ₹236 in a year at simple interest. Find 10% of the interest earned (rounded).",
+        physical: "Priya: Walks 3 km (N). Turns right, 3 km. Left, 5 km. Left, 4 km. Left, 3 km. Left, 7 km. Right, 2 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 7:5. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "6479"
     },
     3: {
         name: "Team 3",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: D→F, F→G, G NOT→A, G→E, H NOT→B. Find unique 4-terminal path starting at D. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 18hrs, C empties: 36hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 2km(N). Right 2km. Right 7km. Left 1km. Left 4km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:2. Remove 20L mixture, replace with pure water → new ratio 1:2. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "8937"
+        logical: "Solve for x: 2(3x − 1) − 3(x − 2) = 10",
+        visual: "A number is 20% more than 15. Find 20% of the larger number (rounded).",
+        physical: "Priya: Walks 2 km (N). Turns right, 2 km. Right, 7 km. Left, 1 km. Left, 4 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:2. Remove 20 liters, replace with pure water → new ratio 1:2. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "2437"
     },
     4: {
         name: "Team 4",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→H, H→C, C NOT→B, C→D, A NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 15hrs, B alone: 20hrs, C empties: 30hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 7km(N). Right 4km. Left 5km. Right 1km. Left 3km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 5:3. Remove 24L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "1265"
+        logical: "Solve for x: (2x + 1)/3 + (x − 2)/2 = 4",
+        visual: "60% of a class of 45 students passed. Find the number of failed students divided by 3.",
+        physical: "Priya: Walks 7 km (N). Turns right, 4 km. Left, 5 km. Right, 1 km. Left, 3 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 5:3. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "4665"
     },
     5: {
         name: "Team 5",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→E, E→F, F NOT→H, F→A, D NOT→H. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 9hrs, B alone: 18hrs, C empties: 27hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 2km(N). Left 4km. Left 6km. Right 8km. Left 8km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:1. Remove 8L mixture, replace with pure water → new ratio 3:5. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "2872"
+        logical: "Solve for x: 3(2x − 1) = 2(2x + 4) − 5",
+        visual: "25% of a number equals 20. Find 10% of that number.",
+        physical: "Priya: Walks 2 km (N). Turns left, 4 km. Left, 6 km. Right, 8 km. Left, 8 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:1. Remove 8 liters, replace with pure water → new ratio 3:5. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "3872"
     },
     6: {
         name: "Team 6",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: H→C, C→E, E NOT→D, E→A, G NOT→D. Find unique 4-terminal path starting at H. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 15hrs, C empties: 60hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 9km(N). Left 7km. Right 3km. Left 9km. Left 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:1. Remove 16L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "2897"
+        logical: "Solve for x: 11 − 2(x − 1) = 3x − 2",
+        visual: "80% of a number is 64. Find 5% of that number.",
+        physical: "Priya: Walks 9 km (N). Turns left, 7 km. Right, 3 km. Left, 9 km. Left, 1 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:1. Remove 16 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "3497"
     },
     7: {
         name: "Team 7",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: F→B, B→D, D NOT→E, D→H, C NOT→G. Find unique 4-terminal path starting at F. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 15hrs, C empties: 20hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 1km(N). Left 5km. Right 8km. Left 1km. Left 3km. Right 6km. Left 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 9:7. Remove 16L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "6831"
+        logical: "Solve for x: x/2 + x/3 = 5",
+        visual: "A number increased by 25% gives 40. Find 10% of the original number (rounded).",
+        physical: "Priya: Walks 1 km (N). Turns left, 5 km. Right, 8 km. Left, 1 km. Left, 3 km. Right, 6 km. Left, 2 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 9:7. Remove 16 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "6331"
     },
     8: {
         name: "Team 8",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: E→F, F→D, D NOT→B, D→C, H NOT→G. Find unique 4-terminal path starting at E. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 6hrs, B alone: 12hrs, C empties: 18hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 1km(N). Left 8km. Right 7km. Left 5km. Right 4km. Right 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 5:3. Remove 24L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "4575"
+        logical: "Solve for x: 5(x − 2) + 3 = 3x + 1",
+        visual: "A number decreased by 20% becomes 32. Find 10% of the original number.",
+        physical: "Priya: Walks 1 km (N). Turns left, 8 km. Right, 7 km. Left, 5 km. Right, 4 km. Right, 1 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 5:3. Remove 24 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "4475"
     },
     9: {
         name: "Team 9",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: D→A, A→E, E NOT→C, E→B, H NOT→C. Find unique 4-terminal path starting at D. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 16hrs, B alone: 24hrs, C empties: 48hrs. All run together, but every 4hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 9km(N). Right 8km. Left 3km. Right 3km. Left 8km. Right 3km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:2. Remove 10L mixture, replace with pure water → new ratio 3:4. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "7241"
+        logical: "Solve for x: (x + 3)/2 − (x − 1)/3 = 3",
+        visual: "A student scores 72% in an exam out of 50 marks. Find 10% of the marks obtained (rounded).",
+        physical: "Priya: Walks 9 km (N). Turns right, 8 km. Left, 3 km. Right, 3 km. Left, 8 km. Right, 3 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:2. Remove 10 liters, replace with pure water → new ratio 3:4. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "7441"
     },
     10: {
         name: "Team 10",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→D, D→A, A NOT→G, A→H, E NOT→G. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 14hrs, B alone: 21hrs, C empties: 42hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 4km(N). Left 1km. Right 6km. Right 4km. Left 5km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 7:5. Remove 24L mixture, replace with pure water → new ratio 1:1. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "6058"
+        logical: "Solve for x: 2x − 3(x − 2) = −1",
+        visual: "A number is increased by 10% twice, becoming 96.8. Find 5% of the original number (rounded).",
+        physical: "Priya: Walks 4 km (N). Turns left, 1 km. Right, 6 km. Right, 4 km. Left, 5 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 7:5. Remove 24 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "7458"
     },
     11: {
         name: "Team 11",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: C→G, G→D, D NOT→F, D→E, A NOT→B. Find unique 4-terminal path starting at C. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 8hrs, B alone: 24hrs, C empties: 16hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 1km(N). Left 2km. Left 9km. Right 4km. Right 5km. Right 8km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 5:1. Remove 24L mixture, replace with pure water → new ratio 5:7. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "8940"
+        logical: "Solve for x: 6(x − 1) − 4(x − 2) = x + 3",
+        visual: "Cost price of an item is ₹20. It is marked up 50% and then sold at a 40% discount. Find 10% of the final selling price (rounded).",
+        physical: "Priya: Walks 1 km (N). Turns left, 2 km. Left, 9 km. Right, 4 km. Right, 5 km. Right, 8 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 5:1. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "1240"
     },
     12: {
         name: "Team 12",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: F→H, H→C, C NOT→A, C→E, A NOT→B. Find unique 4-terminal path starting at F. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 10hrs, B alone: 10hrs, C empties: 20hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 8km(N). Right 3km. Left 8km. Left 3km. Right 7km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 2:3. Remove 10L mixture, replace with pure water → new ratio 1:2. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "8634"
+        logical: "Solve for x: 3(x + 2) = 2(x + 4) + 1",
+        visual: "45% of x is 27. Find 10% of x, then subtract 1.",
+        physical: "Priya: Walks 8 km (N). Turns right, 3 km. Left, 8 km. Left, 3 km. Right, 7 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 2:3. Remove 10 liters, replace with pure water → new ratio 1:2. Find original milk quantity (liters). (If >9, last digit.)",
+        key: "3534"
     },
     13: {
         name: "Team 13",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: E→H, H→F, F NOT→D, F→B, C NOT→G. Find unique 4-terminal path starting at E. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 9hrs, B alone: 12hrs, C empties: 18hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 1km(N). Right 7km. Right 7km. Left 4km. Right 6km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:2. Remove 10L mixture, replace with pure water → new ratio 2:3. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "7768"
+        logical: "Solve for x: 3x − 2(x − 3) = 3x − 2",
+        visual: "75% of a number equals 9. Find 10% of that number (rounded).",
+        physical: "Priya: Walks 1 km (N). Turns right, 7 km. Right, 7 km. Left, 4 km. Right, 6 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:2. Remove 10 liters, replace with pure water → new ratio 2:3. Find original milk quantity (liters). (If >9, last digit.)",
+        key: "4168"
     },
     14: {
         name: "Team 14",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: G→B, B→H, H NOT→D, H→A, F NOT→E. Find unique 4-terminal path starting at G. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 8hrs, B alone: 12hrs, C empties: 24hrs. All run together, but every 2hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 5km(N). Right 1km. Right 2km. Left 4km. Left 1km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:1. Remove 24L mixture, replace with pure water → new ratio 3:4. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "2662"
+        logical: "Solve for x: 3(2x + 1) − 2(3x − 1) = x − 1",
+        visual: "A price rises 10%, then falls 10%. The final price is 99. Find 1% of the original price.",
+        physical: "Priya: Walks 5 km (N). Turns right, 1 km. Right, 2 km. Left, 4 km. Left, 1 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:1. Remove 24 liters, replace with pure water → new ratio 3:4. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "6162"
     },
     15: {
         name: "Team 15",
-        logical: "Board terminals A-H: A=2 B=7 C=4 D=1 E=8 F=5 G=3 H=6. Clues: B→C, C→D, D NOT→H, D→A, H NOT→F. Find unique 4-terminal path starting at B. Answer = LAST terminal value.",
-        visual: "Tank filled by A & B, drained by C. A alone: 12hrs, B alone: 20hrs, C empties: 30hrs. All run together, but every 3hrs C is shut for 1hr (A&B keep running). Complete hours to fill? (If >9, last digit.)",
-        physical: "Priya starts facing North: Walks 2km(N). Left 3km. Left 8km. Right 1km. Right 5km. Right 2km. Shortest distance from start (km, rounded)? (If >9, last digit.)",
-        vaultKey: "Vessel has milk:water = 3:1. Remove 12L mixture, replace with pure water → new ratio 3:5. Original milk quantity (liters)? (If >9, last digit.)",
-        key: "2028"
+        logical: "Solve for x: (3x − 2)/4 = (x + 2)/2 − 1",
+        visual: "30% of a number is 24. Find 10% of that number.",
+        physical: "Priya: Walks 2 km (N). Turns left, 3 km. Left, 8 km. Right, 1 km. Right, 5 km. Right, 2 km. Shortest distance from start? (If >9, last digit.)",
+        vaultKey: "Milk:water ratio = 3:1. Remove 12 liters, replace with pure water → new ratio 3:5. Find original milk quantity (liters). (If >9, give last digit.)",
+        key: "2828"
     }
 };
 
