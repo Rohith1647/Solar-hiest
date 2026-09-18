@@ -9,7 +9,7 @@ const LEADERBOARD_FILE = path.join(ROOT, 'leaderboard.json');
 
 // Admin credentials
 const ADMIN_USER = 'admin';
-const ADMIN_PASS = 'admin123';
+const ADMIN_PASS = 'solar';
 const ADMIN_TOKEN = 'vault-admin-secret-token-2026';
 
 const MIME_TYPES = {
