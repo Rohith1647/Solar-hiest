@@ -6,121 +6,121 @@ const teamsConfig = {
         name: "Team 1",
         logical: "Solve for x: 4(x − 2) − 3(x − 1) = 2",
         visual: "A number decreases by 10% to give 90. Find 1% of the original number.",
-        physical: "Starting at her house facing North, Priya walks a sequence of legs: Walks 9 km (N). Turns left, 2 km. Turns left, 4 km. Turns right, 9 km. Turns left, 5 km. Turns left, 4 km. Shortest distance (km, rounded) from start? (If >9, give last digit.)",
-        vaultKey: "A vessel contains milk and water in ratio 5:3. If 16 liters of the mixture is removed and replaced with pure water, the new ratio becomes 5:7. Find the original quantity of milk (liters). (If >9, give last digit.)",
+        physical: "Starting at her house facing North, Priya walks a sequence of legs: Walks 9 km (facing North). Turns left, walks 2 km. Turns left, walks 4 km. Turns right, walks 9 km. Turns left, walks 5 km. Turns left, walks 4 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A fruit punch contains orange juice and pineapple juice in the ratio 5:3. After 4 L of pineapple juice is added, the ratio becomes 5:4. Find the original quantity of orange juice (in liters). (If more than 9, give the last digit.)",
         key: "7170"
     },
     2: {
         name: "Team 2",
         logical: "Solve for x: (x + 2)/2 + (x + 2)/4 = 6",
         visual: "A sum of ₹200 grows to ₹236 in a year at simple interest. Find 10% of the interest earned (rounded).",
-        physical: "Priya: Walks 3 km (N). Turns right, 3 km. Left, 5 km. Left, 4 km. Left, 3 km. Left, 7 km. Right, 2 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 7:5. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "6479"
+        physical: "Starting at her house facing North, Priya walks: Walks 3 km (facing North). Turns right, walks 3 km. Turns left, walks 5 km. Turns left, walks 4 km. Turns left, walks 3 km. Turns left, walks 7 km. Turns right, walks 2 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A school has boys and girls in the ratio 7:5. When 12 girls join, the ratio becomes 7:6. How many students were there originally? (If more than 9, give the last digit.)",
+        key: "6474"
     },
     3: {
         name: "Team 3",
         logical: "Solve for x: 2(3x − 1) − 3(x − 2) = 10",
         visual: "A number is 20% more than 15. Find 20% of the larger number (rounded).",
-        physical: "Priya: Walks 2 km (N). Turns right, 2 km. Right, 7 km. Left, 1 km. Left, 4 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:2. Remove 20 liters, replace with pure water → new ratio 1:2. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "2437"
+        physical: "Starting at her house facing North, Priya walks: Walks 2 km (facing North). Turns right, walks 2 km. Turns right, walks 7 km. Turns left, walks 1 km. Turns left, walks 4 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A bag contains red and blue beads in the ratio 4:7. After 10 red beads are added, the ratio becomes 2:3. How many beads were originally in the bag? (If more than 9, give the last digit.)",
+        key: "2435"
     },
     4: {
         name: "Team 4",
         logical: "Solve for x: (2x + 1)/3 + (x − 2)/2 = 4",
         visual: "60% of a class of 45 students passed. Find the number of failed students divided by 3.",
-        physical: "Priya: Walks 7 km (N). Turns right, 4 km. Left, 5 km. Right, 1 km. Left, 3 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 5:3. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "4665"
+        physical: "Starting at her house facing North, Priya walks: Walks 7 km (facing North). Turns right, walks 4 km. Turns left, walks 5 km. Turns right, walks 1 km. Turns left, walks 3 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A paint mixture has red and white paint in the ratio 3:5. If 6 L of red paint is added, the ratio becomes 1:1. Find the original amount of paint (in liters). (If more than 9, give the last digit.)",
+        key: "4664"
     },
     5: {
         name: "Team 5",
         logical: "Solve for x: 3(2x − 1) = 2(2x + 4) − 5",
         visual: "25% of a number equals 20. Find 10% of that number.",
-        physical: "Priya: Walks 2 km (N). Turns left, 4 km. Left, 6 km. Right, 8 km. Left, 8 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:1. Remove 8 liters, replace with pure water → new ratio 3:5. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "3872"
+        physical: "Starting at her house facing North, Priya walks: Walks 2 km (facing North). Turns left, walks 4 km. Turns left, walks 6 km. Turns right, walks 8 km. Turns left, walks 8 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "The ratio of A's money to B's money is 5:7. A gives ₹20 to B, and the ratio becomes 3:5. How much money did A have originally? (If more than 9, give the last digit.)",
+        key: "3870"
     },
     6: {
         name: "Team 6",
         logical: "Solve for x: 11 − 2(x − 1) = 3x − 2",
         visual: "80% of a number is 64. Find 5% of that number.",
-        physical: "Priya: Walks 9 km (N). Turns left, 7 km. Right, 3 km. Left, 9 km. Left, 1 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:1. Remove 16 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "3497"
+        physical: "Starting at her house facing North, Priya walks: Walks 9 km (facing North). Turns left, walks 7 km. Turns right, walks 3 km. Turns left, walks 9 km. Turns left, walks 1 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "Rice and dal are mixed in the ratio 7:3. If 8 kg of the mixture is removed and replaced by 8 kg of dal, the ratio becomes 7:5. Find the original quantity of the mixture (in kg). (If more than 9, give the last digit.)",
+        key: "3498"
     },
     7: {
         name: "Team 7",
         logical: "Solve for x: x/2 + x/3 = 5",
         visual: "A number increased by 25% gives 40. Find 10% of the original number (rounded).",
-        physical: "Priya: Walks 1 km (N). Turns left, 5 km. Right, 8 km. Left, 1 km. Left, 3 km. Right, 6 km. Left, 2 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 9:7. Remove 16 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "6331"
+        physical: "Starting at her house facing North, Priya walks: Walks 1 km (facing North). Turns left, walks 5 km. Turns right, walks 8 km. Turns left, walks 1 km. Turns left, walks 3 km. Turns right, walks 6 km. Turns left, walks 2 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A class has boys and girls in the ratio 3:2. If 10 boys leave and 10 girls join, the ratio becomes 1:1. Find the original number of students. (If more than 9, give the last digit.)",
+        key: "6330"
     },
     8: {
         name: "Team 8",
         logical: "Solve for x: 5(x − 2) + 3 = 3x + 1",
         visual: "A number decreased by 20% becomes 32. Find 10% of the original number.",
-        physical: "Priya: Walks 1 km (N). Turns left, 8 km. Right, 7 km. Left, 5 km. Right, 4 km. Right, 1 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 5:3. Remove 24 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "4475"
+        physical: "Starting at her house facing North, Priya walks: Walks 1 km (facing North). Turns left, walks 8 km. Turns right, walks 7 km. Turns left, walks 5 km. Turns right, walks 4 km. Turns right, walks 1 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A juice mixture contains syrup and water in the ratio 2:5. If 6 L of water is removed, the ratio becomes 1:2. Find the original quantity of the mixture (in liters). (If more than 9, give the last digit.)",
+        key: "4472"
     },
     9: {
         name: "Team 9",
         logical: "Solve for x: (x + 3)/2 − (x − 1)/3 = 3",
         visual: "A student scores 72% in an exam out of 50 marks. Find 10% of the marks obtained (rounded).",
-        physical: "Priya: Walks 9 km (N). Turns right, 8 km. Left, 3 km. Right, 3 km. Left, 8 km. Right, 3 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:2. Remove 10 liters, replace with pure water → new ratio 3:4. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "7441"
+        physical: "Starting at her house facing North, Priya walks: Walks 9 km (facing North). Turns right, walks 8 km. Turns left, walks 3 km. Turns right, walks 3 km. Turns left, walks 8 km. Turns right, walks 3 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "Two numbers are in the ratio 5:8. If 15 is added to each number, their ratio becomes 2:3. Find the smaller number. (If more than 9, give the last digit.)",
+        key: "7445"
     },
     10: {
         name: "Team 10",
         logical: "Solve for x: 2x − 3(x − 2) = −1",
         visual: "A number is increased by 10% twice, becoming 96.8. Find 5% of the original number (rounded).",
-        physical: "Priya: Walks 4 km (N). Turns left, 1 km. Right, 6 km. Right, 4 km. Left, 5 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 7:5. Remove 24 liters, replace with pure water → new ratio 1:1. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "7458"
+        physical: "Starting at her house facing North, Priya walks: Walks 4 km (facing North). Turns left, walks 1 km. Turns right, walks 6 km. Turns right, walks 4 km. Turns left, walks 5 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A basket contains apples and oranges in the ratio 4:5. After 8 apples are removed and 5 oranges are added, the ratio becomes 2:3. Find the original number of fruits. (If more than 9, give the last digit.)",
+        key: "7453"
     },
     11: {
         name: "Team 11",
         logical: "Solve for x: 6(x − 1) − 4(x − 2) = x + 3",
         visual: "Cost price of an item is ₹20. It is marked up 50% and then sold at a 40% discount. Find 10% of the final selling price (rounded).",
-        physical: "Priya: Walks 1 km (N). Turns left, 2 km. Left, 9 km. Right, 4 km. Right, 5 km. Right, 8 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 5:1. Remove 24 liters, replace with pure water → new ratio 5:7. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "1240"
+        physical: "Starting at her house facing North, Priya walks: Walks 1 km (facing North). Turns left, walks 2 km. Turns left, walks 9 km. Turns right, walks 4 km. Turns right, walks 5 km. Turns right, walks 8 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A group of red and green balls is in the ratio 3:4. If 6 green balls are removed, the ratio becomes 3:2. How many balls were originally there? (If more than 9, give the last digit.)",
+        key: "1241"
     },
     12: {
         name: "Team 12",
         logical: "Solve for x: 3(x + 2) = 2(x + 4) + 1",
         visual: "45% of x is 27. Find 10% of x, then subtract 1.",
-        physical: "Priya: Walks 8 km (N). Turns right, 3 km. Left, 8 km. Left, 3 km. Right, 7 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 2:3. Remove 10 liters, replace with pure water → new ratio 1:2. Find original milk quantity (liters). (If >9, last digit.)",
-        key: "3534"
+        physical: "Starting at her house facing North, Priya walks: Walks 8 km (facing North). Turns right, walks 3 km. Turns left, walks 8 km. Turns left, walks 3 km. Turns right, walks 7 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A prize is divided among A, B and C in the ratio 2:3:5. If C receives ₹240 more than A, what is the total prize? (If more than 9, give the last digit.)",
+        key: "3530"
     },
     13: {
         name: "Team 13",
         logical: "Solve for x: 3x − 2(x − 3) = 3x − 2",
         visual: "75% of a number equals 9. Find 10% of that number (rounded).",
-        physical: "Priya: Walks 1 km (N). Turns right, 7 km. Right, 7 km. Left, 4 km. Right, 6 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:2. Remove 10 liters, replace with pure water → new ratio 2:3. Find original milk quantity (liters). (If >9, last digit.)",
-        key: "4168"
+        physical: "Starting at her house facing North, Priya walks: Walks 1 km (facing North). Turns right, walks 7 km. Turns right, walks 7 km. Turns left, walks 4 km. Turns right, walks 6 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A mixture contains chemical A and B in the ratio 5:2. If 9 L of B is added, the ratio becomes 5:3. Find the original quantity of A (in liters). (If more than 9, give the last digit.)",
+        key: "4165"
     },
     14: {
         name: "Team 14",
         logical: "Solve for x: 3(2x + 1) − 2(3x − 1) = x − 1",
         visual: "A price rises 10%, then falls 10%. The final price is 99. Find 1% of the original price.",
-        physical: "Priya: Walks 5 km (N). Turns right, 1 km. Right, 2 km. Left, 4 km. Left, 1 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:1. Remove 24 liters, replace with pure water → new ratio 3:4. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "6162"
+        physical: "Starting at her house facing North, Priya walks: Walks 5 km (facing North). Turns right, walks 1 km. Turns right, walks 2 km. Turns left, walks 4 km. Turns left, walks 1 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "The ratio of boys to girls in a club is 5:4. If 10 boys and 2 girls join, the ratio becomes 3:2. Find the original total number of members. (If more than 9, give the last digit.)",
+        key: "6163"
     },
     15: {
         name: "Team 15",
         logical: "Solve for x: (3x − 2)/4 = (x + 2)/2 − 1",
         visual: "30% of a number is 24. Find 10% of that number.",
-        physical: "Priya: Walks 2 km (N). Turns left, 3 km. Left, 8 km. Right, 1 km. Right, 5 km. Right, 2 km. Shortest distance from start? (If >9, last digit.)",
-        vaultKey: "Milk:water ratio = 3:1. Remove 12 liters, replace with pure water → new ratio 3:5. Find original milk quantity (liters). (If >9, give last digit.)",
-        key: "2828"
+        physical: "Starting at her house facing North, Priya walks: Walks 2 km (facing North). Turns left, walks 3 km. Turns left, walks 8 km. Turns right, walks 1 km. Turns right, walks 5 km. Turns right, walks 2 km. What is the shortest distance (km, rounded to nearest whole number) between her final position and the start? (If more than 9, give the last digit.)",
+        vaultKey: "A shop has pens and pencils in the ratio 3:5. After selling 12 pencils and adding 6 pens, the ratio becomes 3:4. Find the original number of items. (If more than 9, give the last digit.)",
+        key: "2820"
     }
 };
 
@@ -129,6 +129,7 @@ let timerInterval = null;
 let startTime = 0;
 let currentEnteredPin = "";
 let timerRunning = false;
+let adminToken = localStorage.getItem('vault_admin_token') || null;
 
 // DOM Elements
 const timerDisplay = document.getElementById('global-timer');
@@ -140,6 +141,7 @@ const sections = document.querySelectorAll('.section');
 const teamSelectionOverlay = document.getElementById('team-selection-overlay');
 const mainApp = document.getElementById('main-app');
 const selectTeamBtns = document.querySelectorAll('.select-team-btn');
+const btnSignOut = document.getElementById('btn-sign-out');
 
 // Team Section Elements
 const teamTitle = document.getElementById('team-title');
@@ -149,7 +151,7 @@ const puzzleVisualImage = document.getElementById('puzzle-visual-image');
 const puzzlePhysical = document.getElementById('puzzle-physical');
 const puzzleKey = document.getElementById('puzzle-key');
 
-// Vault Elements — now 4 pin boxes
+// Vault Elements
 const pinBoxes = [
     document.getElementById('pin-1'),
     document.getElementById('pin-2'),
@@ -168,6 +170,24 @@ const successOverlay = document.getElementById('success-overlay');
 const winningTeamText = document.getElementById('winning-team-text');
 const btnReset = document.getElementById('btn-reset');
 
+// Admin Elements
+const btnOverlayAdmin = document.getElementById('btn-overlay-admin');
+const btnHeaderAdmin = document.getElementById('btn-header-admin');
+const adminModal = document.getElementById('admin-modal');
+const btnCloseAdmin = document.getElementById('btn-close-admin');
+const adminLoginView = document.getElementById('admin-login-view');
+const adminDashboardView = document.getElementById('admin-dashboard-view');
+const adminLoginForm = document.getElementById('admin-login-form');
+const adminUserInput = document.getElementById('admin-user');
+const adminPassInput = document.getElementById('admin-pass');
+const adminLoginError = document.getElementById('admin-login-error');
+const btnAdminLogout = document.getElementById('btn-admin-logout');
+const leaderboardTbody = document.getElementById('leaderboard-tbody');
+const btnRefreshLeaderboard = document.getElementById('btn-refresh-leaderboard');
+const btnResetLeaderboard = document.getElementById('btn-reset-leaderboard');
+const btnAdminResetTimer = document.getElementById('btn-admin-reset-timer');
+const adminTeamSelect = document.getElementById('admin-team-select');
+
 // --- Timer Logic ---
 function formatTime(ms) {
     const totalSeconds = Math.floor(ms / 1000);
@@ -184,9 +204,17 @@ function updateTimer() {
     timerDisplay.textContent = formatTime(elapsed);
 }
 
-function startTimer() {
-    if (timerRunning) return;
-    startTime = Date.now();
+function startTimer(teamId) {
+    stopTimer();
+
+    let savedStartTime = localStorage.getItem(`vault_team_${teamId}_start_time`);
+    if (!savedStartTime) {
+        savedStartTime = Date.now().toString();
+        localStorage.setItem(`vault_team_${teamId}_start_time`, savedStartTime);
+    }
+
+    startTime = parseInt(savedStartTime, 10);
+    updateTimer();
     timerInterval = setInterval(updateTimer, 1000);
     timerRunning = true;
 }
@@ -199,21 +227,17 @@ function stopTimer() {
 
 // --- Navigation Logic ---
 function switchSection(targetId, teamId = null) {
-    // Update active nav button
     navButtons.forEach(btn => btn.classList.remove('active'));
 
-    // Find matching button
     const activeBtn = Array.from(navButtons).find(btn => {
         if (teamId) return btn.getAttribute('data-team') == teamId;
         return btn.getAttribute('data-target') === targetId;
     });
     if (activeBtn) activeBtn.classList.add('active');
 
-    // Update active section
     sections.forEach(sec => sec.classList.remove('active'));
     document.getElementById(targetId).classList.add('active');
 
-    // If it's a team section, populate content
     if (targetId === 'team-section' && teamId) {
         loadTeamContent(teamId);
     }
@@ -229,7 +253,6 @@ function loadTeamContent(teamId) {
     puzzlePhysical.textContent = team.physical;
     puzzleKey.textContent = team.vaultKey;
 
-    // Handle Visual Image
     if (team.visualImage) {
         puzzleVisualImage.src = team.visualImage;
         puzzleVisualImage.classList.remove('hidden');
@@ -239,7 +262,6 @@ function loadTeamContent(teamId) {
     }
 }
 
-// Event Listeners for Navigation
 navButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const target = btn.getAttribute('data-target');
@@ -248,13 +270,27 @@ navButtons.forEach(btn => {
     });
 });
 
+// --- Sign Out Logic ---
+function signOut() {
+    localStorage.removeItem('vault_active_team');
+    stopTimer();
+    startTime = 0;
+    timerDisplay.textContent = "00:00:00";
+    handleClear();
+
+    teamSelectionOverlay.classList.remove('hidden');
+    mainApp.classList.add('hidden');
+    navButtons.forEach(btn => btn.classList.remove('active'));
+}
+
+btnSignOut.addEventListener('click', signOut);
+
 // --- Vault Logic ---
 function updatePinDisplay() {
     for (let i = 0; i < 4; i++) {
         pinBoxes[i].textContent = currentEnteredPin[i] || "";
         pinBoxes[i].classList.remove('active', 'error', 'success');
 
-        // Highlight the current box to type in
         if (i === currentEnteredPin.length) {
             pinBoxes[i].classList.add('active');
         }
@@ -288,7 +324,6 @@ function triggerSuccess(winningTeamName) {
     errorMessage.style.color = "var(--success)";
     errorMessage.textContent = "ACCESS GRANTED.";
 
-    // Handle vault animation
     vaultDoor.classList.add('unlocking');
 
     setTimeout(() => {
@@ -296,21 +331,32 @@ function triggerSuccess(winningTeamName) {
         vaultDoor.classList.add('open');
         vaultStatusText.textContent = "UNLOCKED";
 
-        // Stop timer
         const finalTime = stopTimer();
 
-        // Show overlay after a short delay for dramatic effect
+        // Send completion time to Server API
+        const activeTeamId = localStorage.getItem('vault_active_team');
+        if (activeTeamId) {
+            fetch('/api/complete', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    teamId: activeTeamId,
+                    teamName: winningTeamName,
+                    completionTime: finalTime
+                })
+            }).catch(err => console.error('Failed to report completion time:', err));
+        }
+
         setTimeout(() => {
             winningTeamText.textContent = `${winningTeamName} successfully breached the vault!`;
             finalTimerDisplay.textContent = finalTime;
             successOverlay.classList.remove('hidden');
-            // Slight delay to trigger opacity transition
             setTimeout(() => {
                 successOverlay.classList.add('show');
             }, 50);
         }, 1500);
 
-    }, 1000); // Wait for wheel spin animation
+    }, 1000);
 }
 
 function handleEnter() {
@@ -319,12 +365,19 @@ function handleEnter() {
         return;
     }
 
-    // Check if the pin matches ANY team's key
+    const activeTeamId = localStorage.getItem('vault_active_team');
     let matchedTeam = null;
-    for (const [id, team] of Object.entries(teamsConfig)) {
-        if (team.key === currentEnteredPin) {
-            matchedTeam = team;
-            break;
+
+    if (activeTeamId && teamsConfig[activeTeamId]) {
+        if (teamsConfig[activeTeamId].key === currentEnteredPin) {
+            matchedTeam = teamsConfig[activeTeamId];
+        }
+    } else {
+        for (const [id, team] of Object.entries(teamsConfig)) {
+            if (team.key === currentEnteredPin) {
+                matchedTeam = team;
+                break;
+            }
         }
     }
 
@@ -335,7 +388,6 @@ function handleEnter() {
     }
 }
 
-// Event Listeners for Keypad
 keyBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         handleKeyPress(btn.getAttribute('data-val'));
@@ -345,13 +397,10 @@ keyBtns.forEach(btn => {
 btnClear.addEventListener('click', handleClear);
 btnEnter.addEventListener('click', handleEnter);
 
-// Handle Keyboard input
 document.addEventListener('keydown', (e) => {
-    // Only process if vault section is active
     if (!document.getElementById('vault-section').classList.contains('active')) return;
-
-    // Don't process if overlay is shown
     if (!successOverlay.classList.contains('hidden')) return;
+    if (!adminModal.classList.contains('hidden')) return;
 
     if (e.key >= '0' && e.key <= '9') {
         handleKeyPress(e.key);
@@ -365,25 +414,27 @@ document.addEventListener('keydown', (e) => {
 
 // --- Reset Logic ---
 btnReset.addEventListener('click', () => {
-    // Hide overlay
     successOverlay.classList.remove('show');
     setTimeout(() => {
         successOverlay.classList.add('hidden');
 
-        // Reset Vault Door
+        const activeTeamId = localStorage.getItem('vault_active_team');
+        if (activeTeamId) {
+            localStorage.removeItem(`vault_team_${activeTeamId}_start_time`);
+        }
+        localStorage.removeItem('vault_active_team');
+
         vaultDoor.classList.remove('open');
         vaultStatusText.textContent = "SECURE";
         vaultStatusText.style.color = "var(--danger)";
 
-        // Reset UI States
         handleClear();
         errorMessage.style.color = "var(--danger)";
 
-        // Reset Timer
         stopTimer();
+        startTime = 0;
         timerDisplay.textContent = "00:00:00";
 
-        // Go back to Team Selection
         teamSelectionOverlay.classList.remove('hidden');
         mainApp.classList.add('hidden');
         navButtons.forEach(btn => btn.classList.remove('active'));
@@ -391,38 +442,244 @@ btnReset.addEventListener('click', () => {
 });
 
 // --- Team Selection Logic ---
+function selectTeam(teamId) {
+    localStorage.setItem('vault_active_team', teamId);
+
+    teamSelectionOverlay.classList.add('hidden');
+    mainApp.classList.remove('hidden');
+
+    navButtons.forEach(navBtn => {
+        if (navBtn.classList.contains('vault-btn') || navBtn.getAttribute('data-team') == teamId) {
+            navBtn.style.display = '';
+        } else {
+            navBtn.style.display = 'none';
+        }
+    });
+
+    switchSection('team-section', teamId);
+    updatePinDisplay();
+    startTimer(teamId);
+}
+
 selectTeamBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         const teamId = btn.getAttribute('data-team');
-
-        // Hide overlay, show main app
-        teamSelectionOverlay.classList.add('hidden');
-        mainApp.classList.remove('hidden');
-
-        // Setup navigation to ONLY show the selected team and Vault
-        navButtons.forEach(navBtn => {
-            if (navBtn.classList.contains('vault-btn') || navBtn.getAttribute('data-team') == teamId) {
-                navBtn.style.display = ''; // Restore default
-            } else {
-                navBtn.style.display = 'none'; // Hide
-            }
-        });
-
-        // Initialize state for the selected team
-        switchSection('team-section', teamId);
-        updatePinDisplay();
-
-        // Start timer when team is selected
-        startTimer();
+        selectTeam(teamId);
     });
 });
 
-// --- Initialization ---
-function init() {
-    // Show team selection overlay by default, hide main app
-    teamSelectionOverlay.classList.remove('hidden');
-    mainApp.classList.add('hidden');
+// --- Admin Panel Logic ---
+function openAdminModal() {
+    adminModal.classList.remove('hidden');
+    if (adminToken) {
+        adminLoginView.classList.add('hidden');
+        adminDashboardView.classList.remove('hidden');
+        fetchAndRenderLeaderboard();
+    } else {
+        adminLoginView.classList.remove('hidden');
+        adminDashboardView.classList.add('hidden');
+        adminLoginError.textContent = "";
+    }
 }
 
-// Run init when DOM is loaded
+function closeAdminModal() {
+    adminModal.classList.add('hidden');
+}
+
+btnOverlayAdmin.addEventListener('click', openAdminModal);
+btnHeaderAdmin.addEventListener('click', openAdminModal);
+btnCloseAdmin.addEventListener('click', closeAdminModal);
+
+adminLoginForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const username = adminUserInput.value.trim();
+    const password = adminPassInput.value.trim();
+
+    try {
+        const res = await fetch('/api/admin/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password })
+        });
+        const data = await res.json();
+
+        if (data.success) {
+            adminToken = data.token;
+            localStorage.setItem('vault_admin_token', adminToken);
+            adminLoginView.classList.add('hidden');
+            adminDashboardView.classList.remove('hidden');
+            fetchAndRenderLeaderboard();
+        } else {
+            adminLoginError.textContent = data.message || "Invalid credentials.";
+        }
+    } catch (err) {
+        adminLoginError.textContent = "Server error. Failed to authenticate.";
+    }
+});
+
+btnAdminLogout.addEventListener('click', () => {
+    adminToken = null;
+    localStorage.removeItem('vault_admin_token');
+    adminLoginView.classList.remove('hidden');
+    adminDashboardView.classList.add('hidden');
+    adminUserInput.value = "";
+    adminPassInput.value = "";
+    adminLoginError.textContent = "";
+});
+
+async function fetchAndRenderLeaderboard() {
+    try {
+        const res = await fetch('/api/leaderboard');
+        const data = await res.json();
+        const leaderboard = data.leaderboard || {};
+        const entries = Object.values(leaderboard);
+
+        leaderboardTbody.innerHTML = "";
+
+        if (entries.length === 0) {
+            leaderboardTbody.innerHTML = `<tr><td colspan="4" class="empty-msg">No completion records found yet.</td></tr>`;
+            return;
+        }
+
+        // Sort by timestamp
+        entries.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
+        entries.forEach(entry => {
+            const tr = document.createElement('tr');
+            const dateStr = entry.timestamp ? new Date(entry.timestamp).toLocaleTimeString() : 'N/A';
+
+            tr.innerHTML = `
+                <td><strong>${entry.teamName || 'Team ' + entry.teamId}</strong></td>
+                <td>
+                    <input type="text" class="edit-time-input" data-team="${entry.teamId}" value="${entry.completionTime || '00:00:00'}">
+                </td>
+                <td>${dateStr}</td>
+                <td>
+                    <button class="small-btn save-time-btn" data-team="${entry.teamId}">Save</button>
+                    <button class="small-btn danger delete-team-btn" data-team="${entry.teamId}">Delete</button>
+                </td>
+            `;
+            leaderboardTbody.appendChild(tr);
+        });
+
+        // Add event listeners for Save and Delete buttons
+        document.querySelectorAll('.save-time-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                const teamId = btn.getAttribute('data-team');
+                const inputEl = document.querySelector(`.edit-time-input[data-team="${teamId}"]`);
+                const newTime = inputEl ? inputEl.value.trim() : "";
+
+                if (!newTime) return;
+
+                const res = await fetch('/api/admin/update-time', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ token: adminToken, teamId, completionTime: newTime })
+                });
+                const updateData = await res.json();
+                if (updateData.success) {
+                    alert(`Updated completion time for Team ${teamId} to ${newTime}`);
+                    fetchAndRenderLeaderboard();
+                } else {
+                    alert(`Failed to update: ${updateData.message}`);
+                }
+            });
+        });
+
+        document.querySelectorAll('.delete-team-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                const teamId = btn.getAttribute('data-team');
+                if (!confirm(`Are you sure you want to delete completion record for Team ${teamId}?`)) return;
+
+                const res = await fetch('/api/admin/delete', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ token: adminToken, teamId })
+                });
+                const delData = await res.json();
+                if (delData.success) {
+                    fetchAndRenderLeaderboard();
+                } else {
+                    alert(`Failed to delete: ${delData.message}`);
+                }
+            });
+        });
+
+    } catch (err) {
+        leaderboardTbody.innerHTML = `<tr><td colspan="4" class="empty-msg">Failed to load leaderboard data.</td></tr>`;
+    }
+}
+
+btnRefreshLeaderboard.addEventListener('click', fetchAndRenderLeaderboard);
+
+btnResetLeaderboard.addEventListener('click', async () => {
+    if (!confirm("CAUTION: Are you sure you want to reset and clear ALL leaderboard completion records?")) return;
+
+    try {
+        const res = await fetch('/api/admin/reset', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ token: adminToken })
+        });
+        const data = await res.json();
+        if (data.success) {
+            fetchAndRenderLeaderboard();
+        } else {
+            alert(`Reset failed: ${data.message}`);
+        }
+    } catch (err) {
+        alert("Server error during reset.");
+    }
+});
+
+// Admin Timer Reset Action
+if (btnAdminResetTimer) {
+    btnAdminResetTimer.addEventListener('click', () => {
+        const targetVal = adminTeamSelect ? adminTeamSelect.value : 'current';
+        const activeTeamId = localStorage.getItem('vault_active_team');
+
+        if (targetVal === 'all') {
+            for (let i = 1; i <= 15; i++) {
+                localStorage.removeItem(`vault_team_${i}_start_time`);
+            }
+            if (activeTeamId) {
+                stopTimer();
+                startTime = 0;
+                startTimer(activeTeamId);
+            }
+            alert("Reset timers for ALL teams!");
+        } else if (targetVal === 'current') {
+            if (activeTeamId) {
+                localStorage.removeItem(`vault_team_${activeTeamId}_start_time`);
+                stopTimer();
+                startTime = 0;
+                startTimer(activeTeamId);
+                alert(`Timer reset for current active team (${teamsConfig[activeTeamId]?.name || 'Team ' + activeTeamId})!`);
+            } else {
+                alert("No team session is currently active.");
+            }
+        } else {
+            const teamId = targetVal;
+            localStorage.removeItem(`vault_team_${teamId}_start_time`);
+            if (activeTeamId == teamId) {
+                stopTimer();
+                startTime = 0;
+                startTimer(teamId);
+            }
+            alert(`Timer reset for Team ${teamId}!`);
+        }
+    });
+}
+
+// --- Initialization ---
+function init() {
+    const savedActiveTeam = localStorage.getItem('vault_active_team');
+    if (savedActiveTeam) {
+        selectTeam(savedActiveTeam);
+    } else {
+        teamSelectionOverlay.classList.remove('hidden');
+        mainApp.classList.add('hidden');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', init);
