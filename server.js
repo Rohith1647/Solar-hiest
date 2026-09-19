@@ -69,6 +69,8 @@ function parseJsonBody(req) {
     });
 }
 
+const apiHandler = require('./api/index.js');
+
 const server = http.createServer(async (req, res) => {
     // Parse URL
     let reqUrl;
@@ -84,156 +86,7 @@ const server = http.createServer(async (req, res) => {
 
     // --- API ROUTES ---
     if (reqPath.startsWith('/api/')) {
-        res.setHeader('Content-Type', 'application/json; charset=utf-8');
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-
-        if (req.method === 'OPTIONS') {
-            res.writeHead(204);
-            res.end();
-            return;
-        }
-
-        // GET /api/leaderboard
-        if (reqPath === '/api/leaderboard' && req.method === 'GET') {
-            const leaderboard = readLeaderboard();
-            res.writeHead(200);
-            res.end(JSON.stringify({ success: true, leaderboard }));
-            return;
-        }
-
-        // POST /api/complete
-        if (reqPath === '/api/complete' && req.method === 'POST') {
-            try {
-                const body = await parseJsonBody(req);
-                const { teamId, teamName, completionTime } = body;
-                if (!teamId || !completionTime) {
-                    res.writeHead(400);
-                    res.end(JSON.stringify({ success: false, message: 'Missing teamId or completionTime' }));
-                    return;
-                }
-
-                const leaderboard = readLeaderboard();
-                leaderboard[teamId] = {
-                    teamId: teamId.toString(),
-                    teamName: teamName || `Team ${teamId}`,
-                    completionTime,
-                    timestamp: new Date().toISOString()
-                };
-                saveLeaderboard(leaderboard);
-
-                res.writeHead(200);
-                res.end(JSON.stringify({ success: true, leaderboard }));
-            } catch (err) {
-                res.writeHead(400);
-                res.end(JSON.stringify({ success: false, message: 'Invalid JSON payload' }));
-            }
-            return;
-        }
-
-        // POST /api/admin/login
-        if (reqPath === '/api/admin/login' && req.method === 'POST') {
-            try {
-                const body = await parseJsonBody(req);
-                const { username, password } = body;
-
-                if (username === ADMIN_USER && password === ADMIN_PASS) {
-                    res.writeHead(200);
-                    res.end(JSON.stringify({ success: true, token: ADMIN_TOKEN }));
-                } else {
-                    res.writeHead(401);
-                    res.end(JSON.stringify({ success: false, message: 'Invalid username or password' }));
-                }
-            } catch (err) {
-                res.writeHead(400);
-                res.end(JSON.stringify({ success: false, message: 'Invalid payload' }));
-            }
-            return;
-        }
-
-        // POST /api/admin/update-time
-        if (reqPath === '/api/admin/update-time' && req.method === 'POST') {
-            try {
-                const body = await parseJsonBody(req);
-                const { token, teamId, completionTime } = body;
-
-                if (token !== ADMIN_TOKEN) {
-                    res.writeHead(403);
-                    res.end(JSON.stringify({ success: false, message: 'Unauthorized' }));
-                    return;
-                }
-
-                const leaderboard = readLeaderboard();
-                if (leaderboard[teamId]) {
-                    leaderboard[teamId].completionTime = completionTime;
-                    saveLeaderboard(leaderboard);
-                    res.writeHead(200);
-                    res.end(JSON.stringify({ success: true, leaderboard }));
-                } else {
-                    res.writeHead(404);
-                    res.end(JSON.stringify({ success: false, message: 'Team record not found' }));
-                }
-            } catch (err) {
-                res.writeHead(400);
-                res.end(JSON.stringify({ success: false, message: 'Invalid payload' }));
-            }
-            return;
-        }
-
-        // POST /api/admin/delete
-        if (reqPath === '/api/admin/delete' && req.method === 'POST') {
-            try {
-                const body = await parseJsonBody(req);
-                const { token, teamId } = body;
-
-                if (token !== ADMIN_TOKEN) {
-                    res.writeHead(403);
-                    res.end(JSON.stringify({ success: false, message: 'Unauthorized' }));
-                    return;
-                }
-
-                const leaderboard = readLeaderboard();
-                if (leaderboard[teamId]) {
-                    delete leaderboard[teamId];
-                    saveLeaderboard(leaderboard);
-                    res.writeHead(200);
-                    res.end(JSON.stringify({ success: true, leaderboard }));
-                } else {
-                    res.writeHead(404);
-                    res.end(JSON.stringify({ success: false, message: 'Team record not found' }));
-                }
-            } catch (err) {
-                res.writeHead(400);
-                res.end(JSON.stringify({ success: false, message: 'Invalid payload' }));
-            }
-            return;
-        }
-
-        // POST /api/admin/reset
-        if (reqPath === '/api/admin/reset' && req.method === 'POST') {
-            try {
-                const body = await parseJsonBody(req);
-                const { token } = body;
-
-                if (token !== ADMIN_TOKEN) {
-                    res.writeHead(403);
-                    res.end(JSON.stringify({ success: false, message: 'Unauthorized' }));
-                    return;
-                }
-
-                saveLeaderboard({});
-                res.writeHead(200);
-                res.end(JSON.stringify({ success: true, leaderboard: {} }));
-            } catch (err) {
-                res.writeHead(400);
-                res.end(JSON.stringify({ success: false, message: 'Invalid payload' }));
-            }
-            return;
-        }
-
-        res.writeHead(404);
-        res.end(JSON.stringify({ error: 'Endpoint not found' }));
+        await apiHandler(req, res);
         return;
     }
 
